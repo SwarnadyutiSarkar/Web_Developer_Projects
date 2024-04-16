@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6ffe6; /* light green background */
+    text-align: center;
+    padding: 50px;
+}
+
+.player {
+    background-color: #ccffcc; /* medium green background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #006600; /* dark green text */
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4caf50; /* green button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* darker green on hover */
+}

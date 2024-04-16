@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#user-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+#add-user form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+#add-user form input, #add-user form select, #add-user form textarea, #add-user form button {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,13 @@
+{
+    "name": "MEMORY_APP",
+    "version": "1.0.0",
+    "description": "A simple memory game app",
+    "main": "server.js",
+    "scripts": {
+      "start": "live-server public"
+    },
+    "devDependencies": {
+      "live-server": "^1.2.1"
+    }
+  }
+  

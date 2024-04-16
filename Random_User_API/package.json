@@ -1,0 +1,13 @@
+{
+    "name": "RandomUserAPI",
+    "version": "1.0.0",
+    "description": "A simple app to fetch and display random user data",
+    "main": "server.js",
+    "scripts": {
+      "start": "live-server public"
+    },
+    "devDependencies": {
+      "live-server": "^1.2.1"
+    }
+  }
+  

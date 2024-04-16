@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.movie, .tv-show {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #333333;
+}
+
+.movie img, .tv-show img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}

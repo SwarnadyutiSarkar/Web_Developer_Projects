@@ -1,0 +1,13 @@
+{
+    "name": "Music_Player",
+    "version": "1.0.0",
+    "description": "A simple music player with green theme",
+    "main": "server.js",
+    "scripts": {
+      "start": "live-server public"
+    },
+    "devDependencies": {
+      "live-server": "^1.2.1"
+    }
+  }
+  

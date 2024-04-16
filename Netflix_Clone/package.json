@@ -1,0 +1,16 @@
+{
+    "name": "netflix-clone",
+    "version": "1.0.0",
+    "description": "A simple Netflix clone using Node.js, Express, and MongoDB",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^5.12.14",
+      "body-parser": "^1.19.0",
+      "cors": "^2.8.5"
+    }
+  }
+  
