@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#pin-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+#add-pin form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+#add-pin form input, #add-pin form textarea, #add-pin form button {
+    margin-bottom: 10px;
+}

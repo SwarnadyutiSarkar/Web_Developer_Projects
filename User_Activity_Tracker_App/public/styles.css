@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#activity-list {
+    margin-bottom: 20px;
+}
+
+#add-activity form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+#add-activity form input, #add-activity form button {
+    margin-bottom: 10px;
+}

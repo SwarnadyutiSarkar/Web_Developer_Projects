@@ -1,0 +1,13 @@
+{
+    "name": "TypingSpeedTest",
+    "version": "1.0.0",
+    "description": "A typing speed test game",
+    "main": "server.js",
+    "scripts": {
+      "start": "live-server public"
+    },
+    "devDependencies": {
+      "live-server": "^1.2.1"
+    }
+  }
+  
