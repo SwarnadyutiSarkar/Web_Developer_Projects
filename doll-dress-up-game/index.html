@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doll Dress-Up Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Doll Dress-Up Game</h1>
+        <div class="doll-container">
+            <img id="doll" src="assets/doll.png" alt="Doll">
+            <img id="dress" class="clothes" src="" alt="Dress">
+            <img id="hat" class="clothes" src="" alt="Hat">
+        </div>
+        <div class="controls">
+            <div class="control-group">
+                <h2>Dress</h2>
+                <button onclick="changeDress('dress1.png')">Dress 1</button>
+                <button onclick="changeDress('dress2.png')">Dress 2</button>
+            </div>
+            <div class="control-group">
+                <h2>Hat</h2>
+                <button onclick="changeHat('hat1.png')">Hat 1</button>
+                <button onclick="changeHat('hat2.png')">Hat 2</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
